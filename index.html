@@ -17,7 +17,7 @@
 <body>
     <section id=header>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark" >
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
@@ -33,15 +33,15 @@
                             </li>
 
                             <li class="nav-item active">
-                                <a href="#" class="nav-link">PROJECTS</a>
+                                <a href="#project-header" class="nav-link">PROJECTS</a>
                             </li>
 
                             <li class="nav-item active">
-                                <a href="#" class="nav-link">ABOUT</a>
+                                <a href="#about-header" class="nav-link">ABOUT</a>
                             </li>
 
                             <li class="nav-item active">
-                                <a href="#" class="nav-link">CONTACT</a>
+                                <a href="#contact-header" class="nav-link">CONTACT</a>
                             </li>
                         </ul>
                     </div>
@@ -62,22 +62,28 @@
         </div>
     </section>
     <section class="project-wrap">
+        <div class="project-tag"><a id="project-header"></a>></div>
         <h1>Projects</h1>
         <h3>A first impression is a tasty dish best served code.</h3>
-        <div class="project-div">
-
-        </div>
+            <div>
+                <a class="btn btn-cookie" href="https://ms-christmas-cookies-client.herokuapp.com/" target="_blank">Christmas Cookie Jar</a>
+                <p>This is a react app project.</p>
+            </div>
+            <div class="project2-div"></div>
+            <div class="project3-div"></div>
     </section>
     <section class="about-wrap">
-        <h1>About</h1>
+            <div class="about-tag"><a id="about-header"></a></div>
+            <h1>About</h1>
         <p>Michelle Smith is a full stack JavaScript developer who lives in Anderson, Indiana.</br> </br>
         She is a recent graduate of Eleven Fifty Academy in Fishers, Indiana and has a passion for web development. 
-        Her skillset includes HTML, CSS, Javascript, React, Angular, Node, Restful API, Git, Github and Heroku 
+        Her skill set includes HTML, CSS, Javascript, React, Angular, Node, Restful API, Git, Github and Heroku 
         deployment.</p>
         <img src="assets/Chelle5b.jpg"/>
     </section>
     <section class="contact-wrap">
-        <h1>Contact Me</h1>
+            <div class="contact-tag"><a id="contact-header"></a>></div>
+            <h1>Contact</h1>
         <div class="spacer1"></div>
         <form class="contact-form" action ="https://formspree.io/chellemo23@gmail.com" method="POST">
             <label for="name">Name</label>
