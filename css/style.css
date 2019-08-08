@@ -179,6 +179,13 @@ p {
     padding-top: 100px;
     color: #8b593e;
 }
+.about-wrap p {
+    grid-column: 1/3;
+    grid-row: 5/15;
+    margin-right: 2em;
+    justify-content: space-between;
+
+}
 .about-wrap img {
     grid-column: 3/4;
     grid-row: 1/15;
