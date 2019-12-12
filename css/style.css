@@ -69,11 +69,11 @@ html, body {
 }
 .name {
     animation-duration: 3s;
-    animation-delay: .1s;
+    animation-delay: .5s;
 }
 .title {
     animation-duration: 3s;
-    animation-delay: 1.3s;
+    animation-delay: 2s;
 }
 p {
     margin: 30px;
