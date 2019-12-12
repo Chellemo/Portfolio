@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     background-color: #9CF196;
 }
+
 #header {
     position: absolute;
     z-index: 10;
@@ -138,31 +139,32 @@ p {
     justify-content: center;
 }
 .btn-cookie {
-    width: 25vw;
+    width: 30vw;
     height: auto;
     color: #8b593e;
     background: url("../assets/cookie-image.jpg");
     background-repeat: no-repeat;
-    margin-left: auto;
-    
+    margin-left: auto;   
 }
 .btn-solutions {
-    width: 25vw;
+    width: 30vw;
     height: auto;
     color: #8b593e;
     background: url("../assets/jsicon1.jpg");
     background-repeat: no-repeat;
- 
 }
 .btn-github {
-    width: 25vw;
+    width: 30vw;
     height: auto;
     color: #8b593e;
     background: url("../assets/gitback.jpg");
     background-repeat: no-repeat;
     margin-right: auto;
 }
-
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
 .certificates-wrap h1 {
 
     text-align: center;
