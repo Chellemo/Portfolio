@@ -150,23 +150,20 @@ p {
 .btn-cookie {
   width: 30vw;
   height: auto;
-  color: #8b593e;
-  background: url("../assets/projects.png");
+  background: url("../assets/cookies.png");
   background-repeat: no-repeat;
   margin-left: auto;
 }
 .btn-solutions {
   width: 30vw;
   height: auto;
-  color: #8b593e;
   background: url("../assets/projects.png");
   background-repeat: no-repeat;
 }
 .btn-github {
   width: 30vw;
   height: auto;
-  color: #8b593e;
-  background: url("../assets/projects.png");
+  background: url("../assets/github.png");
   background-repeat: no-repeat;
   margin-right: auto;
 }
