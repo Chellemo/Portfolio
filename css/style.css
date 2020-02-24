@@ -6,7 +6,6 @@ body {
   width: 100%;
   background-color: #f1e0d0;
 }
-
 #header {
   position: absolute;
   z-index: 10;
@@ -152,7 +151,7 @@ p {
   width: 30vw;
   height: auto;
   color: #8b593e;
-  background: url("../assets/cookie-image.jpg");
+  background: url("../assets/projects.png");
   background-repeat: no-repeat;
   margin-left: auto;
 }
@@ -160,14 +159,14 @@ p {
   width: 30vw;
   height: auto;
   color: #8b593e;
-  background: url("../assets/jsicon1.jpg");
+  background: url("../assets/projects.png");
   background-repeat: no-repeat;
 }
 .btn-github {
   width: 30vw;
   height: auto;
   color: #8b593e;
-  background: url("../assets/gitback.jpg");
+  background: url("../assets/projects.png");
   background-repeat: no-repeat;
   margin-right: auto;
 }
