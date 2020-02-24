@@ -71,6 +71,7 @@ body {
   font-family: "Raleway";
   font-weight: 400;
   color: #17456a;
+  background-color: black;
 }
 .name {
   animation-duration: 3s;
@@ -118,59 +119,64 @@ p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 300px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: 50%;
+
   margin-bottom: 100px;
 }
 .project1-div {
-  grid-column: 1/2;
-  grid-row: 3/15;
   width: 33vw;
   height: auto;
   display: flex;
   justify-content: center;
 }
 .project2-div {
-  grid-column: 2/3;
-  grid-row: 3/15;
   width: 33vw;
   height: auto;
   display: flex;
   justify-content: center;
 }
 .project3-div {
-  grid-column: 3/4;
-  grid-row: 3/15;
   width: 33vw;
   height: auto;
   display: flex;
   justify-content: center;
 }
 .btn-cookie {
-  width: 30vw;
-  height: auto;
+  width: 300px;
+  height: 300px;
   background: url("../assets/cookies.png");
+  background-size: auto;
   background-repeat: no-repeat;
   margin-left: auto;
 }
+.btn-cookie:hover {
+  border: #17456a 3px solid;
+}
 .btn-solutions {
-  width: 30vw;
-  height: auto;
+  width: 300px;
+  height: 300px;
   background: url("../assets/AndroidCertificate.jpg");
+  background-size: auto;
   background-repeat: no-repeat;
 }
+.btn-solutions:hover {
+  border: #17456a 3px solid;
+}
 .btn-github {
-  width: 30vw;
-  height: auto;
+  width: 300px;
+  height: 300px;
   background: url("../assets/github.png");
+  background-size: auto;
   background-repeat: no-repeat;
   margin-right: auto;
+}
+.btn-github:hover {
+  border: #17456a 3px solid;
 }
 .btn:focus,
 .btn:active {
   outline: none !important;
-  box-shadow: none;
+  box-shadow: black;
 }
 .certificates-wrap {
   margin-bottom: 20px;
@@ -294,7 +300,6 @@ input[type="submit"]:hover {
   .projsect {
     width: 100%;
     height: auto;
-    padding-bottom: 50px;
     margin-bottom: 10px;
   }
   .projsect h1 {
@@ -305,13 +310,31 @@ input[type="submit"]:hover {
   }
 
   .btn-cookie {
-    background-image: none;
+    width: 100px;
+    height: 100px;
+    background: none;
+    background-color: #5fa3bf;
+  }
+  .btn-cookie:hover {
+    background-color: gray;
   }
   .btn-solutions {
-    background-image: none;
+    width: 100px;
+    height: 100px;
+    background: none;
+    background-color: #5fa3bf;
+  }
+  .btn-solutions:hover {
+    background-color: gray;
   }
   .btn-github {
-    background-image: none;
+    width: 100px;
+    height: 100px;
+    background: none;
+    background-color: #5fa3bf;
+  }
+  .btn-github:hover {
+    background-color: gray;
   }
   .project-wrap {
     height: 50px;
