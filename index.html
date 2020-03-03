@@ -1,216 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet"
-    href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Great+Vibes|Raleway&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="css/animate.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Raleway&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <title>Michelle Smith</title>
+</head>
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <section id="header">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-          <div class="container">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="#navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a href="#contact-header" class="nav-link">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="#myModal"
-                    data-toggle="modal"
-                    data-target="#myModal"
-                    class="nav-link"
-                    >Resume</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div
-          id="myModal"
-          class="modal fade"
-          role="dialog"
-          data-backdrop="false"
-        >
-          <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                <embed
-                  src="./assets/CodingResume2020.pdf"
-                  frameborder="0"
-                  width="100%"
-                  height="400px"
-                />
+<body>
+  <section id="header">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="#contact-header" class="nav-link">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#myModal" data-toggle="modal" data-target="#myModal" class="nav-link">Resume</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+    <div id="myModal" class="modal fade" role="dialog" data-backdrop="false">
+      <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+            <embed src="./assets/CodingResume2020.pdf" frameborder="0" width="100%" height="400px" />
 
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-default"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">
+                Close
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="intro">
-      <div class="inner">
-        <div class="content">
-          <section class="name animated bounceInDown">
-            <h1>Hi, I'm Michelle. I build Android and web apps.</h1>
-          </section>
-        </div>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="inner">
+      <div class="content">
+        <section class="name animated bounceInDown">
+          <h1>Hi, I'm Michelle. I build Android and web apps.</h1>
+        </section>
       </div>
-    </section>
-    <section class="projsect">
-      <h1>Projects and Certifications</h1>
-      <h3>A first impression is a tasty dish best served code.</h3>
-    </section>
-    <section class="project-wrap">
-      <div class="project1-div">
-        <a
-          class="btn btn-cookie"
-          href="https://ms-christmas-cookies-client.herokuapp.com/"
-          target="_blank"
-        ></a>
-      </div>
-      <div class="project2-div">
-        <a class="btn btn-solutions" href="#" target="_blank"></a>
-      </div>
-      <div class="project3-div">
-        <a
-          class="btn btn-github"
-          href="https://github.com/Chellemo?tab=repositories"
-          target="_blank"
-        ></a>
-      </div>
-    </section>
-    <section class="certificates-wrap">
-      <div id="certs">
-        <div
-          id="cert1"
-          data-iframe-width="150"
-          data-iframe-height="270"
-          data-share-badge-id="503cd412-f916-42a5-92aa-a2edad80549d"
-        ></div>
-        <script
-          type="text/javascript"
-          async
-          src="//cdn.youracclaim.com/assets/utilities/embed.js"
-        ></script>
-        <div
-          id="cert2"
-          data-iframe-width="150"
-          data-iframe-height="270"
-          data-share-badge-id="db264aeb-910e-418f-a8f1-c1fe1b149ff9"
-        ></div>
-        <script
-          type="text/javascript"
-          async
-          src="//cdn.youracclaim.com/assets/utilities/embed.js"
-        ></script>
-        <div
-          id="cert3"
-          data-iframe-width="150"
-          data-iframe-height="270"
-          data-share-badge-id="c0289577-7ec8-48e2-a1a1-7084d35b8d4b"
-        ></div>
-        <script
-          type="text/javascript"
-          async
-          src="//cdn.youracclaim.com/assets/utilities/embed.js"
-        ></script>
-        <div
-          id="cert4"
-          data-iframe-width="150"
-          data-iframe-height="270"
-          data-share-badge-id="35022517-a107-4cee-81f4-4a62fbd1b247"
-        ></div>
-        <script
-          type="text/javascript"
-          async
-          src="//cdn.youracclaim.com/assets/utilities/embed.js"
-        ></script>
-      </div>
-    </section>
-    <section class="contact-wrap">
-      <div class="contact-tag"><a id="contact-header"></a></div>
-      <h1>Contact</h1>
-      <div class="spacer1"></div>
-      <form
-        class="contact-form"
-        action="https://formspree.io/chellemo23@gmail.com"
-        method="POST"
-      >
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Name" />
+    </div>
+  </section>
+  <section class="projsect">
+    <h1>Projects and Certifications</h1>
+    <h3>A first impression is a tasty dish best served code.</h3>
+  </section>
+  <section class="project-wrap">
+    <div class="project1-div">
+      <a class="btn btn-cookie" href="https://ms-christmas-cookies-client.herokuapp.com/" target="_blank"></a>
+    </div>
+    <div class="project2-div">
+      <a class="btn btn-solutions" href="#" target="_blank"></a>
+    </div>
+    <div class="project3-div">
+      <a class="btn btn-github" href="https://github.com/Chellemo?tab=repositories" target="_blank"></a>
+    </div>
+  </section>
+  <section class="certificates-wrap">
+    <div id="certs">
+      <div id="cert1" data-iframe-width="150" data-iframe-height="270"
+        data-share-badge-id="503cd412-f916-42a5-92aa-a2edad80549d"></div>
+      <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+      <div id="cert2" data-iframe-width="150" data-iframe-height="270"
+        data-share-badge-id="db264aeb-910e-418f-a8f1-c1fe1b149ff9"></div>
+      <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+      <div id="cert3" data-iframe-width="150" data-iframe-height="270"
+        data-share-badge-id="c0289577-7ec8-48e2-a1a1-7084d35b8d4b"></div>
+      <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+      <div id="cert4" data-iframe-width="150" data-iframe-height="270"
+        data-share-badge-id="35022517-a107-4cee-81f4-4a62fbd1b247"></div>
+      <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+    </div>
+  </section>
+  <section class="contact-wrap">
+    <div class="contact-tag"><a id="contact-header"></a></div>
+    <h1>Contact</h1>
+    <div class="spacer1"></div>
+    <form class="contact-form" action="https://formspree.io/chellemo23@gmail.com" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Email" />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email" />
 
-        <label for="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          placeholder="For questions or to hire me send a message."
-          style="height:100px"
-        ></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="For questions or to hire me send a message."
+        style="height:100px"></textarea>
 
-        <input type="submit" value="Submit" />
-      </form>
-      <div class="spacer2"></div>
-      <div class="spacer3"></div>
-    </section>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <input type="submit" value="Submit" />
+    </form>
+    <div class="spacer2"></div>
+    <div class="spacer3"></div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
