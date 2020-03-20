@@ -224,9 +224,8 @@ p {
   grid-column: 1/4;
   grid-row: 2/3;
   font-family: "Great Vibes";
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 5px;
-  font-size: 200%;
   font-weight: 400;
   color: #17456a;
   text-align: center;
@@ -242,6 +241,7 @@ p {
   height: auto;
   border-radius: 5px;
   background-color: #17456a;
+  color: #f1e0d0;
   padding: 20px;
 }
 input[type="text"],
